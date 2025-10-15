@@ -4,9 +4,10 @@
   "description": "",
   "main": "index.js",
   "type": "commonjs",
-  "scripts": {
-    "start": "nodemon index.js"
-  },
+ "scripts": {
+  "start": "node index.js",
+  "dev": "nodemon index.js"
+},
   "dependencies": {
     "bcrypt": "^5.1.0",
     "cors": "^2.8.5",
